@@ -11,13 +11,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+PING_COMMAND : ["mping"]
+START_COMMAND : ["mstart"]
+HELP_COMMAND : ["mhelp"]
+SETTINGS_COMMAND : ["msettings", "setting"]
+RELOAD_COMMAND : ["admincache", "mreload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["mstats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -108,6 +108,6 @@ ACTIVEVC_COMMAND : ["vc"]
 ACTIVEVIDEO_COMMAND : ["vd"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
+GBAN_COMMAND : ["mgban"]
+UNGBAN_COMMAND : ["mungban"]
 GBANNED_COMMAND : ["gbanedlist"]
